@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío de Fibonacci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Construye el mensaje</h1>
+        <p id="fibonacciQuestion"></p>
+        <input type="number" id="answerInput" placeholder="Escribe tu respuesta...">
+        <button id="checkAnswer">Enviar respuesta</button>
+        <p id="binaryMessage">Mensaje en binario: <span id="binaryCode"></span></p>
+        <div id="finalMessage" hidden>
+            <p>¿Quieres ser mi novia?</p>
+            <button id="yesButton">Sí</button>
+            <button id="noButton">No</button>
+        </div>
+        <div id="contract" hidden>
+            <p>¿Segura?</p>
+            <button id="confirmYes">Sí, estoy segura</button>
+            <button id="confirmNo">No, déjame pensar</button>
+        </div>
+        <div id="acceptContract" hidden>
+            <p>Contrato:</p>
+            <a href="contrato.html">Haz click aqui "Contrato" </a>
+            <p>Al aceptar, confirmas que deseas ser mi novia. ❤️</p>
+            <button id="acceptButton">Aceptar</button>
+
+            
+
+        </div>
+    </div>
+
+    <div>
+        
+        <button id="skipButton">Saltar</button> <!-- Botón para saltar -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
